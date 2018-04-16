@@ -1,8 +1,20 @@
-#landing{
-  content: url(https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6726719ee78dabe78033950d9f3f7145&auto=format&fit=crop&w=1500&q=80);
-  background-size: cover;
+@font-face {
+  font-family: 'Lato', sans-serif;
 }
 
-h1{
-  color: purple;
+.jumbotron{
+  background: url(https://images.unsplash.com/photo-1487058792275-0ad4aaf24ca7?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6726719ee78dabe78033950d9f3f7145&auto=format&fit=crop&w=1500&q=80);
+  background-size: cover;
+  height: 100vh;
+  position: relative;
+}
+h1, h2{
+  color: white;
+}
+
+#home{
+  font-family: 'Lato', sans-serif;
+  position: absolute;
+  bottom: 0;
+  padding: 80px
 }
