@@ -17,10 +17,38 @@
     <title>Burhan Shakir</title>
   </head>
 
-  <body>
+  <body data-spy="scroll" data-target=".navbar" data-offset="50">
 
-    <div class="jumbotron">
-      <div class="container" id="home">
+    <!-- The navbar - The <a> elements are used to jump to a section in the scrollable area -->
+    <nav class="navbar navbar-expand-sm bg-dark navbar-dark fixed-top">
+
+    <ul class="navbar-nav">
+
+      <li class="nav-item">
+        <a class="nav-link" href="#home">Home</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#about">About Me</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#projects">Projects</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#experience">Experience</a>
+      </li>
+
+      <li class="nav-item">
+        <a class="nav-link" href="#contact">Contact Me</a>
+      </li>
+
+    </ul>
+  </nav>
+
+    <div class="jumbotron" id="home">
+      <div class="container" id="home_text">
 
         <h1>Hi,</h1>
         <h1>This is Burhan Shakir,</h1>
@@ -31,17 +59,48 @@
 
     </div>
 
-    <div class = "container-fluid">
+    <div class = "container-fluid" id="about">
+
       <div class = "row">
 
-        <div class = "col-lg-12">
-          <div id="landing">
+        <div class = "col-lg-12" >
+          <div id="about_me">
 
             <h3>About Me</h3>
-
+            <hr></hr>
           </div>
         </div>
       </div>
+
+      <div class = "row">
+
+        <div class="col-lg-6">
+
+            <img id="about_me_pic" src="pp.jpeg" class="rounded" alt="" >
+
+          </div>
+
+            <div class="col-lg-6">
+
+              <p>I am a mobile Application Developer with a passion for coding, lifelong learning and new technologies.
+                After discovering my passion for mobile application development, I couldn’t get enough. I made applications for friends and family, interned with a startup, and hired myself out as a freelancer. I’m looking forward to bringing that passion to a full-time role.<br><br>
+
+                I have worked with the mobile dev team at Vawsum School Pvt Ltd. and together we have solved some of the most challenging technology problems the company encounters.<br><br>
+
+                My passion is building things. Whether it's software or a table, I like to get hands on and create stuff. I'm always up for a challenge, so I like to learn new things as much as possible.<br><br>
+
+                I enjoy working in a team, collaborating with both our mobile dev team and the web team to enchant and simplify the life of our users.<br><br>
+
+                I am known to be a good problem solver and a good thinker, I usually see problems as challenges and life experiences and try to stand above them, objectively.<br><br>
+
+                Aside from creating things, I love sports and I am always up for a friendly game of football, cricket or table tennis.<br><br>
+
+                Graduated with honors in Bachelors in Computer Application from The Heritage Academy.<br><br>
+                Currently pursuing my Master's Degree in Science from University College Dublin, Ireland</p>
+
+            </div>
+      </div>
+
 
     </div>
 
