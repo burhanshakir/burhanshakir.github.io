@@ -39,10 +39,21 @@ h1, h2,h3,p{
 #about{
   background-color: #607D8B;
   padding: 20px;
+  height: 90%;
 }
 #about_me{
 
   text-align: center;
+}
+
+
+.project_text h3{
+  color: black;
+}
+
+#projects{
+  text-align: center;
+  padding: 20px;
 }
 
 .affix {
