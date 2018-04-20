@@ -98,7 +98,7 @@ h1,h2,h3,h4{
 }
 
 .img-hover:hover .img-thumbnail {
-  opacity: 0.3;
+  opacity: 0.1;
 }
 .img-hover:hover .middle{
   opacity: 1;
@@ -111,4 +111,18 @@ h1,h2,h3,h4{
 
 .img-text h4{
   color: black;
+}
+
+.carousel-item{
+  width: 100%;
+  height: auto;
+}
+
+.project-btn{
+  margin-top: 50px;
+}
+
+.modal-body{
+  max-height: calc(100vh - 300px);
+  overflow-y: auto;
 }
