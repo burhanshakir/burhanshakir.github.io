@@ -58,11 +58,24 @@ h1,h2,h3,h4{
 }
 
 
-.project_text h3, h4{
+.project_text h3 {
+  color: black;
+}
+
+.contact_text h3 {
+  color: black;
+}
+
+.experience_text h3 {
   color: black;
 }
 
 #projects{
+  text-align: center;
+  padding: 20px;
+}
+
+#experience{
   text-align: center;
   padding: 20px;
 }
