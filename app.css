@@ -78,6 +78,7 @@ h1,h2,h3,h4{
 #experience{
   text-align: center;
   padding: 20px;
+  margin-top: 10px;
 }
 
 .affix {
@@ -138,4 +139,17 @@ h1,h2,h3,h4{
 .modal-body{
   max-height: calc(100vh - 300px);
   overflow-y: auto;
+}
+
+
+.work_exp{
+  padding-top:30px;
+  padding-bottom:30px;
+}
+
+.center-block{
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+
 }
