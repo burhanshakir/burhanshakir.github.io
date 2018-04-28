@@ -1,3 +1,32 @@
+// Initialize Firebase
+var config = {
+  apiKey: "AIzaSyAsdcAH8Jqb3IvGwWmTz_qSWjqDVHIDyvs",
+  authDomain: "chat-apps-bbe8e.firebaseapp.com",
+  databaseURL: "https://chat-apps-bbe8e.firebaseio.com",
+  projectId: "chat-apps-bbe8e",
+  storageBucket: "chat-apps-bbe8e.appspot.com",
+  messagingSenderId: "385032925067"
+};
+firebase.initializeApp(config);
+
+// Get a reference to the database service
+var database = firebase.database();
+
+
+function sumbitContactDetails(){
+
+  var nameValue = document.getElementById("contact_name").value;
+  var emailValue = document.getElementById("contact_email").value;
+  var messageValue = document.getElementById("contact_message").value;
+
+  database.ref('messages/').push().set({
+      name: nameValue,
+      email: emailValue,
+      message : messageValue
+    });
+}
+
+
 // Objects of my projects
 
 var project = {
