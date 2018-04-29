@@ -12,18 +12,29 @@ firebase.initializeApp(config);
 // Get a reference to the database service
 var database = firebase.database();
 
+function sumbitContactDetails(event){
 
-function sumbitContactDetails(){
+  event.preventDefault();
 
   var nameValue = document.getElementById("contact_name").value;
   var emailValue = document.getElementById("contact_email").value;
   var messageValue = document.getElementById("contact_message").value;
 
+  var today = new Date();
+  var dd = today.getDate();
+  var mm = today.getMonth()+1; //January is 0!
+  var yyyy = today.getFullYear();
+
+  today = dd + '/' + mm + '/' + yyyy;
+
   database.ref('messages/').push().set({
       name: nameValue,
       email: emailValue,
-      message : messageValue
+      message : messageValue,
+      date: today
     });
+
+    $('#msgModal').modal('show');
 }
 
 
