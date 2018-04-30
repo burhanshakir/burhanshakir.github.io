@@ -14,6 +14,7 @@ var database = firebase.database();
 
 function sumbitContactDetails(event){
 
+
   event.preventDefault();
 
   var nameValue = document.getElementById("contact_name").value;
