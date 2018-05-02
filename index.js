@@ -1,3 +1,11 @@
+//Initialize paper.js
+
+/* particlesJS.load(@dom-id, @path-json, @callback (optional)); */
+particlesJS.load('particles-js', 'particles.json', function() {
+  console.log('callback - particles.js config loaded');
+});
+
+
 // Initialize Firebase
 var config = {
   apiKey: "AIzaSyAsdcAH8Jqb3IvGwWmTz_qSWjqDVHIDyvs",
@@ -163,7 +171,5 @@ function setModal(modal, project){
   $('.carousel-indicators > li').first().addClass('active');
   $('#demo').carousel();
 });
-
-
 
 }
