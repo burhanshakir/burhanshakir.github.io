@@ -241,3 +241,25 @@ h1,h2,h3,h4{
     font-size: 20px;
   }
 }
+
+.btn-view-work:hover, .btn-view-work:focus, .btn-view-work:active, .btn-view-work.active, .open>.dropdown-toggle.btn-view-work,.btn-view-work:active:focus{
+  background-color: #00c6cd;
+  color: #fff;
+}
+
+.list-horizontal li {
+	display:inline-block;
+  color: white;
+  font-size: 20px;
+
+}
+
+.list-horizontal li:before {
+	content: '\00a0\2022\00a0\00a0';
+	color:#999;
+	color:rgba(0,0,0,0.5);
+	font-size:11px;
+}
+.list-horizontal li:first-child:before {
+	content: '';
+}

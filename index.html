@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="bootstrap.min.css">
     <!-- CSS -->
     <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="animations.css">
 
     <!-- Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Lato:400,700" rel="stylesheet">
@@ -31,14 +32,16 @@
       <div class="panel" style="display: block;">
 
 
-        <p class="text-white display-4" id="intro_text"> Hello, I'm <span class="highlight">Burhan Shakir</span>. <br>
+        <p class="text-white display-4 anm-fade-in" id="intro_text"> Hello, I'm <span class="highlight">Burhan Shakir</span>. <br>
 
           I'm a Software Developer.<br>
 
-          I'm still working on the website.. please bear with any errors!</p>
+          I'm still working on the website.. please bear with any errors!
 
-          <button type="button" class="btn btn-outline-light btn-lg" onclick="location.href = '#about';">
-            View My Work &ensp; <span class="fa fa-arrow-right" style="font-size:20px;color:white;"></span>
+        </p>
+
+          <button type="button" class="btn btn-outline-light btn-lg btn-view-work hvr-icon-down anm-fade-in" onclick="location.href = '#about';">
+            View My Work &ensp; <i class="fa fa-arrow-down hvr-icon" style="font-size:20px;color:white;"></i>
           </button>
 
         <!-- <div class="button page-link" dest="about">View my work <i class="mdi mdi-arrow-right"></i></div> -->

@@ -1,0 +1,91 @@
+/* Icon Down */
+@-webkit-keyframes hvr-icon-down {
+  0%,
+	50%,
+	100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25%,
+	75% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+@keyframes hvr-icon-down {
+  0%,
+	50%,
+	100% {
+    -webkit-transform: translateY(0);
+    transform: translateY(0);
+  }
+  25%,
+	75% {
+    -webkit-transform: translateY(6px);
+    transform: translateY(6px);
+  }
+}
+/* Icon Down */
+.hvr-icon-down {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+}
+.hvr-icon-down .hvr-icon {
+  -webkit-transform: translateZ(0);
+  transform: translateZ(0);
+}
+.hvr-icon-down:hover .hvr-icon, .hvr-icon-down:focus .hvr-icon, .hvr-icon-down:active .hvr-icon {
+  -webkit-animation-name: hvr-icon-down;
+  animation-name: hvr-icon-down;
+  -webkit-animation-duration: 0.75s;
+  animation-duration: 0.75s;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+}
+
+/* Fade In Animation */
+
+.anm-fade-in {
+    /* margin-top: 25px;
+    font-size: 21px;
+    text-align: center; */
+    animation: fadein 3s;
+    -moz-animation: fadein 3s; /* Firefox */
+    -webkit-animation: fadein 3s; /* Safari and Chrome */
+    -o-animation: fadein 3s; /* Opera */
+}
+@keyframes fadein {
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-moz-keyframes fadein { /* Firefox */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-webkit-keyframes fadein { /* Safari and Chrome */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity:1;
+    }
+}
+@-o-keyframes fadein { /* Opera */
+    from {
+        opacity:0;
+    }
+    to {
+        opacity: 1;
+    }
+}
