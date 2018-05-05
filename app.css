@@ -214,6 +214,7 @@ h1,h2,h3,h4{
 
 .highlight {
     color: #E31B6D;
+    font-weight: bold;
 }
 
 #intro_text {

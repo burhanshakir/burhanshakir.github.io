@@ -76,7 +76,7 @@ particlesJS("particles-js", {
 );
 
 
-var offset = 40;
+var offset = 30;
 
 $('.navbar li a').click(function(event) {
     event.preventDefault();
@@ -95,11 +95,11 @@ $(document).ready(function() {
 
     console.log($(window).scrollTop());
 
-    if ($(window).scrollTop() > 850) {
+    if ($(window).scrollTop() > 950) {
       $('#nav_bar').addClass('fixed-top');
     }
 
-    if ($(window).scrollTop() < 850) {
+    if ($(window).scrollTop() < 950) {
       $('#nav_bar').removeClass('fixed-top');
     }
   });
