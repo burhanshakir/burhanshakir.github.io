@@ -65,9 +65,9 @@ canvas {
   background-position: center;
   background-repeat: no-repeat;
 }
-h1,h2,h3,h4{
+/* h1,h2,h3,h4{
   color: white;
-}
+} */
 
 #home{
   height: 100%;
@@ -90,22 +90,42 @@ h1,h2,h3,h4{
   padding-top: 40px;
 }
 #about{
-  background-color: #607D8B;
-  padding: 20px;
-  height: 90%;
+
+  padding: 70px 0 70px 0;
+  position: relative;
 }
 #about_me{
 
   text-align: center;
-  color: white;
-
+  margin-bottom: 50px;
 }
 
-#about_text p{
-
-  color: white;
-
+.about-intro{
+  display: inline-block;
+  text-align: center;
+  margin-bottom: 20px;
 }
+
+.about-icon{
+  font-size:48px;
+  color:#00c6cd;
+  margin-bottom:10px;
+}
+
+.header-bar {
+    margin: 0 auto;
+    float: none;
+    width: 70px;
+    height: 4px;
+    background: #444649;
+
+
+  }
+
+  .row{
+    min-height:100px;
+  }
+
 
 
 .project_text h3 {
@@ -262,4 +282,8 @@ h1,h2,h3,h4{
 }
 .list-horizontal li:first-child:before {
 	content: '';
+}
+
+.border-custom{
+  border-bottom: 3px solid #00c6cd;
 }
