@@ -273,3 +273,22 @@ function setModal(modal, project){
 });
 
 }
+
+// Bar Animation
+
+(function (document){
+
+  var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
+
+  _bars.map(function(bar,index){
+    setTimeout(function(){
+
+      var bar_width = (bar.dataset.value * 80/100)
+      // console.log(bar_width);
+
+      bar.style.width = bar_width + '%';
+    }, 100);
+
+  })
+
+})(document);
