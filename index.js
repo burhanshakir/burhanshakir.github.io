@@ -276,19 +276,45 @@ function setModal(modal, project){
 
 // Bar Animation
 
-(function (document){
+var $window = $(window);
+var $elem = $("#about_graph")
 
-  var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
+function isScrolledIntoBarGraph($elem, $window) {
+        var docViewTop = $window.scrollTop();
+        var docViewBottom = docViewTop + $window.height();
 
-  _bars.map(function(bar,index){
-    setTimeout(function(){
+        var elemTop = $elem.offset().top;
+        var elemBottom = elemTop + $elem.height();
 
-      var bar_width = (bar.dataset.value * 80/100)
-      // console.log(bar_width);
+        return ((elemBottom <= docViewBottom) && (elemTop >= docViewTop));
+    }
 
-      bar.style.width = bar_width + '%';
-    }, 100);
+    $(document).on("scroll", function () {
+        if (isScrolledIntoBarGraph($elem, $window)) {
+            animateBarChart();
+        }
+    });
 
-  })
 
-})(document);
+
+
+function animateBarChart(){
+
+  (function (document){
+
+    var _bars = [].slice.call(document.querySelectorAll('.bar-inner'));
+
+    _bars.map(function(bar,index){
+      setTimeout(function(){
+
+        var bar_width = (bar.dataset.value * 80/100)
+        // console.log(bar_width);
+
+        bar.style.width = bar_width + '%';
+      }, 100);
+
+    })
+
+  })(document);
+
+}
