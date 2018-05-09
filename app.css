@@ -162,6 +162,21 @@ canvas {
 
 }
 
+#about-qualities{
+  margin-top: 50px;
+}
+
+.about-qualities-text{
+  border-right: 1px solid lightgrey;
+  text-align: center;
+  line-height: 30px;
+  padding: 20px;
+}
+
+.about-qualities-text:hover {
+background-color: #f2f2f2;
+/* opacity: 0.8; */
+}
 
 .flex {
     display: flex;
