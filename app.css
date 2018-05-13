@@ -382,8 +382,16 @@ background-color: #f2f2f2;
 }
 
 #project_tabs{
-  font-size: 25px;
+  font-size: 20px;
   margin-top: 50px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
+}
+
+#project_tabs .active{
+    background-color: #E31B6D !important;
+    color: white !important;
+}
+
+#project_tabs .nav-link{
   color: black;
 }
