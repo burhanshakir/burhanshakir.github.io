@@ -294,10 +294,7 @@ background-color: #f2f2f2;
   margin-top: 50px;
 }
 
-.modal-body{
-  max-height: calc(100vh - 300px);
-  overflow-y: auto;
-}
+
 
 
 .work_exp{
@@ -340,6 +337,19 @@ background-color: #f2f2f2;
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .project-modal-dialog{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+  }
+
+  .project-modal{
+    height: auto;
+    min-height: 100%;
+    border-radius: 0;
+  }
 }
 
 @media only screen and (max-width: 768px)  {
@@ -362,6 +372,11 @@ background-color: #f2f2f2;
 
   #tsk_text{
     left: 100%;
+  }
+
+  .modal-body{
+    max-height: 100%;
+    overflow-y: auto;
   }
 }
 
