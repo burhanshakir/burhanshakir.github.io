@@ -241,6 +241,42 @@ $('#projectModal').on('show.bs.modal', function (event) {
           break;
 
 
+    case 'iot':
+        project.title = "Wather Data using RPi's";
+        project.subtitle = "Interner Of Things";
+        project.description = "An IOT network using wireless technologies, Raspberry Pi's and Logentries cloud service. Collect Humidity/Temperature data from DHT11 sensors connected to edge and gateway device and sending data via RFCOMM and MQTT";
+        project.btnText = "VIEW PROJECT";
+        project.btnLink = "https://github.com/burhanshakir/weather-data-iot";
+        project.pics = ['https://images.unsplash.com/photo-1507289872412-523fc6b2db5f?ixlib=rb-0.3.5&s=a2b5c53d120867286477a936c86595c3&auto=format&fit=crop&w=1048&q=80'];
+
+        setModal(modal, project);
+
+      break;
+
+    case 'news':
+          project.title = "News Classification";
+          project.subtitle = "NLP using Python";
+          project.description = "Web Scrapes a corpus of news articles from a set of web pages, pre-processes the corpus, and evaluates the performance of automated classification of these articles in a supervised learning context.";
+          project.btnText = "VIEW PROJECT";
+          project.btnLink = "https://github.com/burhanshakir/classify_news";
+          project.pics = ['https://images.unsplash.com/photo-1505473478993-e61136811cc4?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=e6ddd5f8cc9cc9491bbcecfd3147d502&auto=format&fit=crop&w=1050&q=80'];
+
+          setModal(modal, project);
+
+        break;
+
+        case 'snap':
+              project.title = "SnapCity";
+              project.subtitle = "iOS Application";
+              project.description = "SnapCity is an app which downloads and displays geotagged images of a given location.";
+              project.btnText = "VIEW PROJECT";
+              project.btnLink = "https://github.com/burhanshakir/snap-city";
+              project.pics = ['snapcity/1.png','snapcity/2.png','snapcity/3.png','snapcity/4.png'];
+
+              setModal(modal, project);
+
+            break;
+
     default:
 
   }
