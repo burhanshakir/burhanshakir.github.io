@@ -353,6 +353,10 @@ background-color: #f2f2f2;
   #intro_text {
     font-size: 20px;
   }
+
+  #project_tabs{
+    font-size: 15px;
+  }
 }
 
 .btn-view-work:hover, .btn-view-work:focus, .btn-view-work:active, .btn-view-work.active, .open>.dropdown-toggle.btn-view-work,.btn-view-work:active:focus{

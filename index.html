@@ -411,123 +411,201 @@
 
       </div>
 
-      <ul class="nav nav-pills nav-fill" id="project_tabs">
+      <!-- Nav Pills -->
+
+      <ul class="nav nav-pills nav-fill" id="project_tabs" role="tablist">
         <li class="nav-item">
-          <a class="nav-link active" href="#projects">TOP</a>
+          <a class="nav-link active" data-toggle="pill" href="#top-pane">TOP</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">MOBILE</a>
+          <a class="nav-link" data-toggle="pill" href="#mobile-pane">MOBILE</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">WEB</a>
+          <a class="nav-link" data-toggle="pill" href="#projects">WEB</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#projects">ML/AI</a>
+          <a class="nav-link" data-toggle="pill" href="#projects">ML/AI</a>
         </li>
       </ul>
 
-      <div class="row">
-        <div class="col-lg-4 col-sm-6">
-          <div class="img-hover">
+      <!-- Tab Panes -->
 
-            <img class="img-thumbnail" src="thescorekeeper/1.png">
-            <div class="middle">
+      <div class="tab-content" id="tab-content">
 
-              <div class="img-text">
-                <h4>TheScoreKeeper</h4>
-                <p class="text-success">Android application</p>
-              </div>
-              <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "tsk">
-                LEARN MORE
-              </button>
+        <!-- Top Pane -->
 
-            </div>
+        <div class="tab-pane active" id="top-pane">
 
-          </div>
+          <div class="row">
+            <div class="col-lg-4 col-6">
+              <div class="img-hover">
 
-        </div>
+                <img class="img-thumbnail" src="thescorekeeper/9.png">
+                <div class="middle">
 
-        <div class="col-lg-4 col-sm-6">
+                  <div class="img-text">
+                    <h4>TheScoreKeeper</h4>
+                    <p class="text-success">Android application</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "tsk">
+                    LEARN MORE
+                  </button>
 
-          <div class="img-hover">
-              <img class="img-thumbnail" src="smack/chats.png">
-              <div class="middle">
-                <div class="img-text">
-                  <h4>SmackChat</h4>
-                  <p class="text-success">iOS application</p>
                 </div>
-                <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "smack">
-                  LEARN MORE
-                </button>
+
               </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="img-hover">
-            <img class="img-thumbnail" src="breakout/pic1.png">
-            <div class="middle">
-              <div class="img-text">
-                <h4>Breakout Game</h4>
-                <p class="text-success">iOS Game</p>
-              </div>
-              <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "bout">
-                LEARN MORE
-              </button>
+
             </div>
 
-          </div>
+            <div class="col-lg-4 col-sm-6">
 
-        </div>
-
-        <div class="col-lg-4 col-sm-6">
-          <div class="img-hover">
-
-            <img class="img-thumbnail" src="https://images.unsplash.com/photo-1506153519530-95cb935e1701?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c87495f0d4eb88f17bb1b805d9ff1422&auto=format&fit=crop&w=1051&q=80">
-            <div class="middle">
-              <div class="img-text">
-                <h4>Dodge Cars</h4>
-                <p class="text-success">Android and iOS application</p>
+              <div class="img-hover">
+                  <img class="img-thumbnail" src="smack/1.png">
+                  <div class="middle">
+                    <div class="img-text">
+                      <h4>SmackChat</h4>
+                      <p class="text-success">iOS application</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "smack">
+                      LEARN MORE
+                    </button>
+                  </div>
               </div>
-              <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "cars">
-                LEARN MORE
-              </button>
             </div>
-
-          </div>
-
-        </div>
-        <div class="col-lg-4 col-sm-6">
-          <div class="img-hover">
-            <img class="img-thumbnail" src="https://images.unsplash.com/photo-1518885137200-434f43a6d583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=636f844feafdb6e4f4b57340a97c10de&auto=format&fit=crop&w=1050&q=80">
-
-            <div class="middle">
-              <div class="img-text">
-                <h4>Movie Recommender</h4>
-                <p class="text-success">Recommender System</p>
-              </div>
-              <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "recomm">
-                LEARN MORE
-              </button>
-            </div>
-          </div>
-
-        </div>
-        <div class="col-lg-4 col-sm-6">
-            <div class="img-hover">
-
-              <img class="img-thumbnail" src="colorgame/pic.png">
-
-              <div class="middle">
-                <div class="img-text">
-                  <h4>The Color Game</h4>
-                  <p class="text-success">JavaScript</p>
+            <div class="col-lg-4 col-sm-6">
+              <div class="img-hover">
+                <img class="img-thumbnail" src="breakout/1.png">
+                <div class="middle">
+                  <div class="img-text">
+                    <h4>Breakout Game</h4>
+                    <p class="text-success">iOS Game</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "bout">
+                    LEARN MORE
+                  </button>
                 </div>
-                <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "tcg">
-                  LEARN MORE
-                </button>
+
               </div>
 
             </div>
+
+            <div class="col-lg-4 col-sm-6">
+              <div class="img-hover">
+
+                <img class="img-thumbnail" src="https://images.unsplash.com/photo-1506153519530-95cb935e1701?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=c87495f0d4eb88f17bb1b805d9ff1422&auto=format&fit=crop&w=1051&q=80">
+                <div class="middle">
+                  <div class="img-text">
+                    <h4>Dodge Cars</h4>
+                    <p class="text-success">Android and iOS application</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "cars">
+                    LEARN MORE
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="img-hover">
+                <img class="img-thumbnail" src="https://images.unsplash.com/photo-1518885137200-434f43a6d583?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=636f844feafdb6e4f4b57340a97c10de&auto=format&fit=crop&w=1050&q=80">
+
+                <div class="middle">
+                  <div class="img-text">
+                    <h4>Movie Recommender</h4>
+                    <p class="text-success">Recommender System</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "recomm">
+                    LEARN MORE
+                  </button>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-lg-4 col-sm-6">
+                <div class="img-hover">
+
+                  <img class="img-thumbnail" src="colorgame/pic.png">
+
+                  <div class="middle">
+                    <div class="img-text">
+                      <h4>The Color Game</h4>
+                      <p class="text-success">JavaScript</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "tcg">
+                      LEARN MORE
+                    </button>
+                  </div>
+
+                </div>
+            </div>
+
+          </div>
+
+        </div>
+
+
+        <!-- Mobile Pane -->
+
+        <div class="tab-pane fade" id="mobile-pane">
+
+          <div class="row">
+
+            <div class="col-lg-4 col-6">
+              <div class="img-hover">
+
+                <img class="img-thumbnail" src="thescorekeeper/12.png">
+                <div class="middle">
+                  <div class="img-text">
+                    <h4>TheScoreKeeper</h4>
+                    <p class="text-success">Android/Web application</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "tsk">
+                    LEARN MORE
+                  </button>
+                </div>
+              </div>
+           </div>
+
+            <div class="col-lg-4 col-sm-6">
+
+              <div class="img-hover">
+                  <img class="img-thumbnail" src="smack/5.png">
+                  <div class="middle">
+                    <div class="img-text">
+                      <h4>SmackChat</h4>
+                      <p class="text-success">iOS application</p>
+                    </div>
+                    <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "smack">
+                      LEARN MORE
+                    </button>
+                  </div>
+              </div>
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="img-hover">
+                <img class="img-thumbnail" src="breakout/1.png">
+                <div class="middle">
+                  <div class="img-text">
+                    <h4>Breakout Game</h4>
+                    <p class="text-success">iOS Game</p>
+                  </div>
+                  <button type="button" class="btn btn-outline-success project-btn" id="tsk-click"data-toggle="modal" data-target="#projectModal" data-project = "bout">
+                    LEARN MORE
+                  </button>
+                </div>
+
+              </div>
+
+            </div>
+
+
+
+          </div>
+
+
+
+
         </div>
 
       </div>

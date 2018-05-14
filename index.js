@@ -178,7 +178,7 @@ $('#projectModal').on('show.bs.modal', function (event) {
         project.description = "TheScoreKeeper helps you to create, organize and maintain your football tournaments. Android app created using Java and backend based on PHP, Firebase and MYSQL.";
         project.btnText = "VISIT APP";
         project.btnLink = "https://play.google.com/store/apps/details?id=com.burhan.thescorekeeper";
-        project.pics = ['thescorekeeper/1.png','thescorekeeper/2.png','thescorekeeper/3.png','thescorekeeper/4.png','thescorekeeper/5.png','thescorekeeper/6.png','thescorekeeper/7.png'];
+        project.pics = ['thescorekeeper/9.png','thescorekeeper/10.png','thescorekeeper/11.png','thescorekeeper/12.png'];
 
         setModal(modal, project);
       break;
@@ -190,7 +190,7 @@ $('#projectModal').on('show.bs.modal', function (event) {
         project.description = "SmackChat is an Slack clone iOS app made with Swift, Node and MongoDB. It allows users to create channels and chat with each other in real time.";
         project.btnText = "VIEW PROJECT";
         project.btnLink = "https://github.com/burhanshakir/chat-app-ios";
-        project.pics = ['smack/login.png','smack/create.png','smack/createChannel.png','smack/chats.png','smack/channels.png','smack/avtrL.png','smack/avtrD.png'];
+        project.pics = ['smack/1.png','smack/2.png','smack/3.png','smack/4.png'];
 
         setModal(modal, project);
         break;
@@ -202,7 +202,7 @@ $('#projectModal').on('show.bs.modal', function (event) {
         project.description = "Breakout is a classic iOS game. Players move the board around to push the ball and break the bricks. It is built using Swift";
         project.btnText = "VIEW PROJECT";
         project.btnLink = "https://github.com/burhanshakir/breakout-ios-game";
-        project.pics = ['breakout/pic1.png','breakout/pic2.png'];
+        project.pics = ['breakout/2.png'];
 
         setModal(modal, project);
         break;
