@@ -299,6 +299,18 @@ background-color: #f2f2f2;
 
 .project-btn{
   margin-top: 50px;
+  border: 1px solid #E31B6D;
+  color: #E31B6D;
+
+}
+
+.project-btn:hover{
+  background-color:#E31B6D;
+  color:white;
+}
+
+.text-project{
+  color: #E31B6D;
 }
 
 
