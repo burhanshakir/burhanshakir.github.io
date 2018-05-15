@@ -6,8 +6,14 @@ body, html {
 
 body {
     margin: 0;
+    overflow-x: hidden;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+       -moz-box-sizing: border-box;
+            box-sizing: border-box;
     /* font: normal 75% Arial, Helvetica, sans-serif; */
 }
+
 
 canvas {
     display: block;
@@ -125,6 +131,19 @@ canvas {
 
 }
 
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+
+  outline: black;
+  background-size: 100%, 100%;
+  border: 1px solid #545454;
+  background-color: #545454;
+  padding: 10px;
+
+}
+
+
 .bar-title-container{
   background-color: #00c6cd;
   height: 100%;
@@ -164,6 +183,7 @@ canvas {
 
 #about-qualities{
   margin-top: 50px;
+  width: 100%;
 }
 
 .about-qualities-text{
@@ -171,6 +191,7 @@ canvas {
   text-align: center;
   line-height: 30px;
   padding: 20px;
+  width: 100%;
 }
 
 .about-qualities-text:hover {
@@ -369,6 +390,14 @@ background-color: #f2f2f2;
     min-height: 100%;
     border-radius: 0;
   } */
+
+  .about-qualities-text{
+    border-right: 0px solid lightgrey;
+    text-align: center;
+    line-height: 30px;
+    padding: 20px;
+  }
+
 
   #tsk_img{
     min-width: 100%;
