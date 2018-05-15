@@ -269,6 +269,13 @@ background-color: #f2f2f2;
   backface-visibility: hidden;
 }
 
+#vawsum_pic{
+  display: block;
+  width: 100%;
+  height: auto;
+  margin-bottom: 40px;
+}
+
 .img-hover:hover .img-thumbnail {
   opacity: 0;
 }
