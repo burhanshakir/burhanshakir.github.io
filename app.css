@@ -357,6 +357,11 @@ background-color: #f2f2f2;
     min-height: 100%;
     border-radius: 0;
   }
+
+  #tsk_img{
+    min-width: 100%;
+  }
+
 }
 
 @media only screen and (max-width: 768px)  {
@@ -367,18 +372,6 @@ background-color: #f2f2f2;
 
   #intro_text {
     font-size: 20px;
-  }
-
-  #tsk_img{
-    min-width: 350px;
-  }
-
-  #project_tabs{
-    font-size: 10px;
-  }
-
-  #tsk_text{
-    left: 100%;
   }
 
   .modal-body{
