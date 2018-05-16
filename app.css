@@ -334,9 +334,6 @@ background-color: #f2f2f2;
   color: #E31B6D;
 }
 
-
-
-
 .work_exp{
   padding-top:30px;
   padding-bottom:30px;
@@ -467,4 +464,46 @@ background-color: #f2f2f2;
 
 #project_tabs .nav-link{
   color: black;
+}
+
+#project-container{
+  background-color: #f5f5f5;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+#contact-container{
+  background: #252934;
+  padding-top: 175px;
+  color: #fff;
+  position: relative;
+
+}
+
+.svgcolor-light{
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+.submit-message{
+  border: 1px solid white;
+  background-color: Transparent;
+  color: white;
+  padding-top:10px;
+  padding-bottom:10px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.submit-message:hover{
+  background-color: #00c6cd;
+}
+
+.contact_text hr{
+  background-color: white;
+}
+
+.contact_text h5{
+  color: #00c6cd;
 }
