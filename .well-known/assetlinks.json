@@ -1,74 +1,14 @@
 [
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "ie.anpost.app",
-        "sha256_cert_fingerprints": [
-          "CF:97:6B:AE:E2:C0:72:7D:42:83:3C:4F:D0:42:EA:64:E1:76:DF:FE:C7:CD:C7:69:73:E4:F6:1C:BF:A6:AD:3C"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "ie.anpost.app",
-        "sha256_cert_fingerprints": [
-          "32:FD:78:B7:15:9A:64:C3:FE:00:D7:34:C8:60:C2:3B:55:94:43:EA:98:C6:C6:D7:52:2F:B1:12:16:D6:A1:16"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "ie.anpost.app.debug",
-        "sha256_cert_fingerprints": [
-          "32:FD:78:B7:15:9A:64:C3:FE:00:D7:34:C8:60:C2:3B:55:94:43:EA:98:C6:C6:D7:52:2F:B1:12:16:D6:A1:16"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "ie.anpost.app.uat",
-        "sha256_cert_fingerprints": [
-          "32:FD:78:B7:15:9A:64:C3:FE:00:D7:34:C8:60:C2:3B:55:94:43:EA:98:C6:C6:D7:52:2F:B1:12:16:D6:A1:16"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "ie.anpost.app.dev",
-        "sha256_cert_fingerprints": [
-          "32:FD:78:B7:15:9A:64:C3:FE:00:D7:34:C8:60:C2:3B:55:94:43:EA:98:C6:C6:D7:52:2F:B1:12:16:D6:A1:16"
-        ]
-      }
-    },
-    {
-      "relation": [
-        "delegate_permission/common.handle_all_urls"
-      ],
-      "target": {
-        "namespace": "android_app",
-        "package_name": "ie.anpost.app.staging",
-        "sha256_cert_fingerprints": [
-          "32:FD:78:B7:15:9A:64:C3:FE:00:D7:34:C8:60:C2:3B:55:94:43:EA:98:C6:C6:D7:52:2F:B1:12:16:D6:A1:16"
-        ]
-      }
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "ie.anpost.app",
+      "sha256_cert_fingerprints": [
+        "CF:97:6B:AE:E2:C0:72:7D:42:83:3C:4F:D0:42:EA:64:E1:76:DF:FE:C7:CD:C7:69:73:E4:F6:1C:BF:A6:AD:3C"
+      ]
     }
-  ]
+  }
+]
